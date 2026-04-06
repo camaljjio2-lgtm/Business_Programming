@@ -10,6 +10,7 @@
     1. 10진수를 k진수로 변환한 결과를 출력한다.
 
 */
+
 #include <iostream> 
 #include <vector>
 #include <algorithm>
@@ -41,5 +42,5 @@ int main() {
 	}
     
     return 0;
-    
+
 }
