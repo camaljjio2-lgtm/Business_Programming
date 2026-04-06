@@ -36,5 +36,5 @@ int main() {
 
     cout << w * w;
 
-    return 0 ;
+    return 0;
 }
