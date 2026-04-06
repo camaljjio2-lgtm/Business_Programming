@@ -8,13 +8,13 @@
     2. 두 번째 줄에 변환을 희망하는 진수 k가 입력된다.(2 <= k <= 9)
 -- 출력
     1. 10진수를 k진수로 변환한 결과를 출력한다.
-    
+
 */
 #include <iostream> 
 #include <vector>
 #include <algorithm>
 using namespace std;
-
+  
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -39,4 +39,6 @@ int main() {
 	for (size_t i = 0; i < knum.size(); i++) {
 		cout << knum[i];
 	}
+    
+    return 0;
 }
